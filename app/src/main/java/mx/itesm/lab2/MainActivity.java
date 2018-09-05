@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         textViewMgr = findViewById(R.id.textView);
 
         //open Landscape/Portrait activity
+        //create new XML file with landscape setting and SAME name (in this case Activity_One) - rightclick new, XML layout file, change direction in popup window
         buttonMgr1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
